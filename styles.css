@@ -1,3 +1,214 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url('https://fonts.cdnfonts.com/css/spoof-trial');
+
+
 body{
     background-color: #282a34;
+    
+}
+.logo{
+    text-align: center;
+}
+.perfil{
+    text-align: center;
+    margin-top: -5%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+.links{
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    gap: 20px;
+    justify-content: center;
+}
+p{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: white;
+   font-family: 'Spoof Trial', sans-serif;
+   font-size: 3em;
+   top: -157%;
+   font-weight: bold;
+}
+.bi-twitch{
+    position: relative;
+   font-size: 3em;
+   top: 10%;
+   left: 1.6%;
+   color: white;
+   
+                                                
+}
+.twitch{
+    width: 30em;
+    height: 4em;
+
+    border: solid;
+    border-color: #d55aff;
+    background: rgb(213,90,255);
+    background: linear-gradient(90deg, rgba(213,90,255,1) 13%, rgba(0,212,255,0) 13%);
+    border-radius: 1em;
+    transition: transform 0.3s ease-in-out; /* Transición suave al pasar el cursor sobre el botón */
+}
+.twitch:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.bi-discord{
+    position: relative;
+   font-size: 3em;
+   top: 10%;
+   left: 1.6%;
+   color: white;
+   
+                                                
+}
+.discord{
+    width: 30em;
+    height: 4em;
+
+    border: solid;
+    border-color: #d55aff;
+    background: rgb(213,90,255);
+    background: linear-gradient(90deg, rgba(213,90,255,1) 13%, rgba(0,212,255,0) 13%);
+    border-radius: 1em;
+    transition: transform 0.3s ease-in-out; /* Transición suave al pasar el cursor sobre el botón */
+}
+.discord:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.bi-tiktok{
+    position: relative;
+   font-size: 3em;
+   top: 10%;
+   left: 1.6%;
+   color: white;
+   
+                                                
+}
+.tiktok{
+    width: 30em;
+    height: 4em;
+
+    border: solid;
+    border-color: #d55aff;
+    background: rgb(213,90,255);
+    background: linear-gradient(90deg, rgba(213,90,255,1) 13%, rgba(0,212,255,0) 13%);
+    border-radius: 1em;
+    transition: transform 0.3s ease-in-out; /* Transición suave al pasar el cursor sobre el botón */
+}
+.tiktok:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.bi-twitter{
+    position: relative;
+   font-size: 3em;
+   top: 10%;
+   left: 1.6%;
+   color: white;
+   
+                                                
+}
+.twitter{
+    width: 30em;
+    height: 4em;
+
+    border: solid;
+    border-color: #d55aff;
+    background: rgb(213,90,255);
+    background: linear-gradient(90deg, rgba(213,90,255,1) 13%, rgba(0,212,255,0) 13%);
+    border-radius: 1em;
+    transition: transform 0.3s ease-in-out; /* Transición suave al pasar el cursor sobre el botón */
+}
+.twitter:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.bi-youtube{
+    position: relative;
+   font-size: 3em;
+   top: 10%;
+   left: 1.6%;
+   color: white;
+   
+                                                
+}
+.youtube{
+    width: 30em;
+    height: 4em;
+
+    border: solid;
+    border-color: #d55aff;
+    background: rgb(213,90,255);
+    background: linear-gradient(90deg, rgba(213,90,255,1) 13%, rgba(0,212,255,0) 13%);
+    border-radius: 1em;
+    transition: transform 0.3s ease-in-out; /* Transición suave al pasar el cursor sobre el botón */
+}
+.youtube:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.bi-instagram{
+    position: relative;
+   font-size: 3em;
+   top: 10%;
+   left: 1.6%;
+   color: white;
+   
+                                                
+}
+.instagram{
+    width: 30em;
+    height: 4em;
+
+    border: solid;
+    border-color: #d55aff;
+    background: rgb(213,90,255);
+    background: linear-gradient(90deg, rgba(213,90,255,1) 13%, rgba(0,212,255,0) 13%);
+    border-radius: 1em;
+    transition: transform 0.3s ease-in-out; /* Transición suave al pasar el cursor sobre el botón */
+}
+.instagram:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.bi-bar-chart-line-fill{
+    position: relative;
+   font-size: 3em;
+   top: 10%;
+   left: 1.6%;
+   color: white;
+   
+                                                
+}
+section{
+    transform: scaleY(50%);
+    fill: #f5ceff;
+}
+.wave{
+    transform: scaleY(-1);
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+.estadisticas{
+    width: 30em;
+    height: 4em;
+
+    border: solid;
+    border-color: #d55aff;
+    background: rgb(213,90,255);
+    background: linear-gradient(90deg, rgba(213,90,255,1) 13%, rgba(0,212,255,0) 13%);
+    border-radius: 1em;
+    transition: transform 0.3s ease-in-out; /* Transición suave al pasar el cursor sobre el botón */
+}
+.estadisticas:hover{
+    cursor: pointer;
+    transform: scale(1.05);
 }
