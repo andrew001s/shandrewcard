@@ -1,7 +1,27 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 @import url('https://fonts.cdnfonts.com/css/spoof-trial');
 
+.luna{
+    position: relative;
+    
+    color:#f3fdff;
+    text-shadow: 1px 1px 2px #f3fdff, 0 0 15px #f3fdff, 0 0 5px black;
+    top:-200px;
+    left: 460px;
+    font-size:50px;
+    animation: beatstar 3s infinite alternate; /* Aplica la animación 'beat' */
 
+  }
+  @keyframes beatstar {
+    0%, 100% {
+      transform:  scale(0);
+      opacity: 0.5;
+    }
+    50% {
+      transform:  scale(1);
+      opacity: 1; /* Puedes ajustar el valor según tu preferencia */
+    }
+  }
 body{
     background-color: #282a34;
     
@@ -39,8 +59,6 @@ p{
    top: 10%;
    left: 1.6%;
    color: white;
-   
-                                                
 }
 .twitch{
     width: 30em;
@@ -52,10 +70,16 @@ p{
     background: linear-gradient(90deg, rgba(213,90,255,1) 13%, rgba(0,212,255,0) 13%);
     border-radius: 1em;
     transition: transform 0.3s ease-in-out; /* Transición suave al pasar el cursor sobre el botón */
+    
 }
+
 .twitch:hover{
     cursor: pointer;
     transform: scale(1.05);
+    border-color: #7e41db;
+    background: #7e41db;
+    
+    
 }
 .bi-discord{
     position: relative;
@@ -80,6 +104,8 @@ p{
 .discord:hover{
     cursor: pointer;
     transform: scale(1.05);
+    border-color: #4f5ad0;
+    background: #4f5ad0;
 }
 .bi-tiktok{
     position: relative;
@@ -104,6 +130,8 @@ p{
 .tiktok:hover{
     cursor: pointer;
     transform: scale(1.05);
+    border-color: #000000;
+    background: #000000;
 }
 .bi-twitter{
     position: relative;
@@ -128,6 +156,8 @@ p{
 .twitter:hover{
     cursor: pointer;
     transform: scale(1.05);
+    border-color: #24a3f1;
+    background: #24a3f1;
 }
 .bi-youtube{
     position: relative;
@@ -152,6 +182,8 @@ p{
 .youtube:hover{
     cursor: pointer;
     transform: scale(1.05);
+    border-color: #ff0000;
+    background: #ff0000;
 }
 .bi-instagram{
     position: relative;
@@ -176,6 +208,34 @@ p{
 .instagram:hover{
     cursor: pointer;
     transform: scale(1.05);
+    background: rgb(195,15,233);
+    background: linear-gradient(90deg, rgba(195,15,233,1) 0%, rgba(255,192,8,1) 100%);
+}
+.bi-facebook{
+    position: relative;
+   font-size: 3em;
+   top: 10%;
+   left: 1.6%;
+   color: white;
+   
+                                                
+}
+.facebook{
+    width: 30em;
+    height: 4em;
+
+    border: solid;
+    border-color: #d55aff;
+    background: rgb(213,90,255);
+    background: linear-gradient(90deg, rgba(213,90,255,1) 13%, rgba(0,212,255,0) 13%);
+    border-radius: 1em;
+    transition: transform 0.3s ease-in-out; /* Transición suave al pasar el cursor sobre el botón */
+}
+.facebook:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    border-color: #207bf3;
+    background: #207bf3;
 }
 .bi-bar-chart-line-fill{
     position: relative;
@@ -211,4 +271,24 @@ a{
 .estadisticas:hover{
     cursor: pointer;
     transform: scale(1.05);
+    border-color: linear-gradient(90deg, rgba(255,129,231,1) 0%, rgba(60,177,209,1) 100%);
+    background: rgb(255,129,231);
+    background: linear-gradient(90deg, rgba(255,129,231,1) 0%, rgba(60,177,209,1) 100%);
+}
+#shandrewstats{
+    padding-left: 10%;
+    display: flex;
+    color: white;
+    align-items: center;
+    font-family: 'Spoof Trial', sans-serif;
+
+}
+.iframe-container {
+    margin-left: 20px;
+    
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
 }
