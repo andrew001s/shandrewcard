@@ -1,3 +1,25 @@
-@media (max-width: 768px) {
+@media (max-width: 750px) {
+  
+    .card-section{
+        position: relative;
+        width: 100%;
+    }
+    .card{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+    .estadisticas-section{
+        position: relative;
+        width: 100%;
+    }
+    .sandy{
+        opacity: 0;
+    }
+    .pie{
     
+       
+        font-family: 'Spoof Trial', sans-serif;
+    }
 }
