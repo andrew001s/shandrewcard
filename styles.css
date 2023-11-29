@@ -130,6 +130,33 @@ body{
     
     
 }
+.Portafolio{
+    width: 6em;
+    height: 2em;
+    border: solid;
+    border-color: #d55aff;
+    
+    background: linear-gradient(rgba(0,212,255,0));
+    border-radius: 0.75em;
+    transition: transform 0.3s ease-in-out; /* Transición suave al pasar el cursor sobre el botón */
+}
+
+.Portafolio:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    border-color: #111111;
+    background: #111111;
+    
+    
+}
+.bi-brush-fill{
+    position: relative;
+   top: 10%;
+   left: 1.6%;
+   color: white;
+   
+                                                
+}
 .bi-discord{
     position: relative;
    top: 10%;
