@@ -111,7 +111,39 @@ body{
    left: 1.6%;
    color: white;
 }
+.bi-linkedin{
+    position: relative;
+    top: 10%;
+   left: 1.6%;
+   color: white;
+}
+.bi-github{
+    position: relative;
+    top: 10%;
+   left: 1.6%;
+   color: white;
+}
 .twitch{
+    width: 6em;
+    height: 2em;
+    border: solid;
+    border-color: #d55aff;
+
+    background: linear-gradient(rgba(0,212,255,0));
+    border-radius: 0.75em;
+    transition: transform 0.3s ease-in-out; /* Transición suave al pasar el cursor sobre el botón */
+}
+.github{
+    width: 6em;
+    height: 2em;
+    border: solid;
+    border-color: #d55aff;
+
+    background: linear-gradient(rgba(0,212,255,0));
+    border-radius: 0.75em;
+    transition: transform 0.3s ease-in-out; /* Transición suave al pasar el cursor sobre el botón */
+}
+.linkedin{
     width: 6em;
     height: 2em;
     border: solid;
@@ -127,6 +159,22 @@ body{
     transform: scale(1.05);
     border-color: #7e41db;
     background: #7e41db;
+    
+    
+}
+.github:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    border-color: #010409;
+    background: #010409;
+    
+    
+}
+.linkedin:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    border-color: #0a65c0;
+    background: #0a65c0;
     
     
 }
