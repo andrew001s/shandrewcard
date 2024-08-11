@@ -30,6 +30,8 @@ en la parte baja del sitio encontraras el codigo embebido para el iframe, copial
 # Preview:
 https://shandrewcard.netlify.app/
 
+<img src="https://i.imgur.com/nudrFnv.png">
+
 Te recomiendo desplegarlo con githubPages o con netlify.
 
 
